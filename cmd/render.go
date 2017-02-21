@@ -26,6 +26,4 @@ func renderSauceFunc(cmd *cobra.Command, args []string) {
 	// out the buffer content
 	fmt.Println(string(buffer[:n]))
 	fmt.Println(string(buffer[0:5]))
-
-	fmt.Println("New off set : ", newoffset)
 }
